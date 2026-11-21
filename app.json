@@ -1,0 +1,1 @@
+{"edition":"202601","entrypoint":"index.html","min_app_version":"2.0.0","min_sdk_version":"0.0.16","name":"CoinGlance","package_id":"com.oyentv.coinglance","permissions":[{"desc":"Fetch live crypto prices from the CoinGecko free API.","name":"network","whitelist":["https://api.coingecko.com"]}],"supported_languages":["en"],"version":"0.1.0"}

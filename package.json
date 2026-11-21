@@ -1,0 +1,23 @@
+{
+  "name": "coinglance",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "npx tsc src/alerts.ts --outDir /tmp/alert-test --module nodenext --target es2022 && node tests/alerts.test.mjs",
+    "preview": "vite preview",
+    "pack": "npm run build && evenhub pack app.json dist",
+    "simulate": "node node_modules/@evenrealities/evenhub-simulator/bin/index.js http://localhost:5173"
+  },
+  "dependencies": {
+    "@evenrealities/even_hub_sdk": "^0.0.16"
+  },
+  "devDependencies": {
+    "@evenrealities/evenhub-cli": "^0.1.12",
+    "@evenrealities/evenhub-simulator": "^0.9.5",
+    "typescript": "^5.7.0",
+    "vite": "^5.4.0"
+  }
+}
