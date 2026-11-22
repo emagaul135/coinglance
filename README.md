@@ -23,7 +23,19 @@ flagged "(offline - last price)".
   stays latched until the price moves back across. Thresholds, last
   prices and the latch all survive a restart.
 
-## Status (Mon 24 Nov 2026, features milestone)
+## Pre-existing work (before the 23 Nov 2026 build week)
+
+Per the hackathon rules, here is what existed before 23 Nov 2026: the
+whole app was built on Sat 21 Nov 2026 — the Even Hub template clone,
+the 5-coin ticker, gestures, price alerts, offline fallback, unit
+tests, screenshots, the demo video (`demo.mp4`), and the public GitHub
+repo (created 21 Nov 2026, Release v1.0). The only work done during
+the build week (23–29 Nov) is the DoraHacks registration and
+submission itself (submissions open Mon 23 Nov 15:00 WIB), plus any
+fixes the submission form asks for. Open-source pieces used: the Even
+Hub SDK and simulator, and the CoinGecko free API (no key).
+
+## Status (Sat 21 Nov 2026, features complete)
 
 - [x] Template cloned (`even-realities/evenhub-templates/minimal`)
 - [x] SDK `@evenrealities/even_hub_sdk` **0.0.16**, simulator
@@ -57,7 +69,10 @@ flagged "(offline - last price)".
       Translate TTS, mixed with ffmpeg). Silent cut kept as
       `demo-silent.mp4`. The offline-recovery half was cut per the
       script's cut list (video ends on the offline flag).
-- [ ] Public GitHub repo + DoraHacks submission — Tue 25 Nov evening
+- [x] Public GitHub repo — https://github.com/emagaul135/coinglance
+      (created 21 Nov 2026, Release v1.0 with `demo.mp4`)
+- [ ] DoraHacks submission — from Mon 23 Nov 15:00 WIB, pending the
+      Telegram handle needed for registration
 
 ## Run
 
